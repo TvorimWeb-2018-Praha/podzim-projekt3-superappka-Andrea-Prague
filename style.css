@@ -30,4 +30,107 @@ body {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
-/* ----- zde začni psát vlastní CSS ----- */
+.hlavicka{
+    display: flex;
+}
+
+.logo{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #48418e;
+    padding: 20px;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    padding: 4px;
+}
+
+li a{ 
+    text-decoration: none;  
+    padding-right: 30px; 
+    color: #48418e;  
+}
+ 
+.slide{
+    display: flex;  
+} 
+
+.pozadi img{
+    max-width: 960px;
+}
+
+.text_nalevo{
+    padding: 20px;
+    flex-direction: column;    
+    position: absolute;
+}
+
+h1{
+    font-weight: normal;
+    font-size: 500%;
+    color: white;
+}
+
+.text_nalevo p{
+    color: white;
+    font-size: 200%;
+    margin-top: 0;
+    font-weight: 300;
+}
+
+.tlacitka{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 450px;
+    padding: 20px;
+    width: 200%;  
+}
+
+button{
+    border-color: white;
+    color: white;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+    width: 200px;
+}
+
+.stahnout{
+    background-color: #48418e;
+}
+
+.telefon{
+    position: absolute;
+    top: 204px;
+    left: 750px;
+}
+
+.moznosti{
+    display: flex;
+    text-align: center;
+    align-content: center;
+}
+
+.jedna_moznost{
+    padding: 30px;
+}
+
+.piktogram{
+    max-width: 20%;
+    margin: auto;
+}
+.nazev{
+    color: #48418e;
+}
+.paticka{
+    background-color: #48418e;
+    color: white;
+    text-align: center;
+    font-weight: light;
+    padding: 5px;
+}
+
